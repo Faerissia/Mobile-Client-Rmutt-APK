@@ -308,15 +308,7 @@ postSingle( ) async {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           
-                          ElevatedButton(
-                            onPressed:_isButtonDisabled ? null : _handleButtonPress,
-                            child: Text('ส่งอีกครั้ง',
-                                    style: TextStyle(fontSize: 15),
-                            ),
-                            style: ElevatedButton.styleFrom(
-                            backgroundColor: _isButtonDisabled ? Colors.grey : Colors.orange,
-                            ),
-                          ),
+                          
                           SizedBox(width: 10,),
                           ElevatedButton(
                             onPressed: () {

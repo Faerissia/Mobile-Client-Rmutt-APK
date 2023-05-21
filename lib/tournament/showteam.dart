@@ -76,7 +76,7 @@ Widget _buildSingleList(BuildContext context, Map<String, dynamic> data) {
               },
               child: Card(
                 elevation: 5, //เงาของกรอบ
-                color: Colors.amber,
+                color: Color.fromARGB(255, 255, 255, 255),
 
                 child: Column(
                   children: [

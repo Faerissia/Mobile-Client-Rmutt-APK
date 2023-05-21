@@ -206,7 +206,7 @@ class _regsingleState extends State<regsingle> {
                           decoration: InputDecoration(
                               icon: Icon(
                                   Icons.calendar_today), //icon of text field
-                              labelText: "Enter Date" //label text of field
+                              labelText: "วัน/เดือน/ปี/เกิด" //label text of field
                               ),
                           readOnly: true,
                           //set it true, so that user will not able to edit text
